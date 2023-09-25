@@ -1,0 +1,506 @@
+
+.tekst {font-family: Impact;}
+
+
+a {
+color: black;
+text-decoration: none;
+}
+
+
+
+#overskrift 
+{ text-align: center;
+    
+  font-size: 77px ; 
+  color: rgba(0,0,0,1);
+   
+}
+ 
+#logo {
+position: absolute;
+width: auto;   
+height: 190px; 
+
+}
+
+#lenker 
+{text-align: right;
+ font-family: Impact;
+ font-size: 34px;
+ position: absolute;
+ top: 47.5px;  
+ left: 1100px; }
+
+ #grønnsmoothie { width: 1500px;
+ position: absolute; 
+ top: 200px;
+}
+
+#velkommen {
+background-color: black;
+opacity: 70%;
+position: absolute;
+width: 500px;
+height: 250px;
+top: 248px;
+left: 23px;
+
+}
+
+#velkommenover {
+font-size: 48px;
+color: white;
+}
+
+#velkommentekst {
+color: white;
+font-size: 29px;
+}
+
+#meny {
+position: absolute;
+width: auto;
+height: 94px;
+top: 530px;
+left: 53px;
+}
+
+#anbefalinger { 
+font-size: 100px;
+position: absolute;
+top: 670px;
+left: 390px; }
+
+#blåbæranbefaling {
+position: absolute;
+width: 640px;  
+top: 900px;
+left: 100px;
+transition: 1.3s;
+}
+
+#blåbæranbefaling:hover {
+transform: scale(1.2);
+
+}
+
+#rabarbraanbefaling {
+  position: absolute;
+  width: 640px;  
+  top: 900px;
+  left: 840px;
+  transition: 1.3s; }
+
+  #rabarbraanbefaling:hover {
+  transform: scale(1.2);
+  }
+
+#anbefalingsbilder {
+align-content: center;
+}
+
+#omossbilde {
+  position: absolute;
+  width: 640px;  
+  top: 1500px;
+  left: 100px; }
+
+#næringbilde {
+  position: absolute;
+  width: 640px;  
+  top: 1500px;
+  left: 840px;}
+
+ #omoss {
+position: absolute;
+top: 2000px;
+left: 123px;} 
+
+.infoover {
+font-size: 56px;
+font-family: Impact;
+}
+
+.infotekst {
+font-size: 25px;  
+font-family: Impact;}
+
+#omosstekst {
+position: absolute;
+top: 2100px; 
+left: 123px;
+}
+
+#næring {
+  position: absolute;
+  top: 2000px;
+  left: 856px;}
+
+#næringtekst {
+  position: absolute;
+  top: 2100px; 
+  left: 850px; }
+
+.lesmerknapp {
+width: 307px;
+height: 74px;}
+
+#omossknapp {
+position: absolute;
+top: 2325px;
+left: 123px; }
+
+#næringknapp {
+position: absolute;
+top: 2325px;
+left: 850px;
+}
+
+#menyknapp {
+position: absolute;
+width: 381px;
+height: 105px;
+top: 2590px;
+left: 550px;
+}
+
+
+
+
+
+
+.smoothie {
+width: 208px;
+height: 280px;
+}
+
+.pristopp {
+font-family: Impact;
+font-size: 19px;
+text-align: center;
+}
+
+.txttopp {
+font-family: Impact;
+font-size: 19px;
+
+}
+
+.smoothieover {
+font-family: Impact;
+text-align: center;
+font-size: 25px;
+}
+
+#ananas {
+position: absolute;
+top: 330px;
+left: 20px;
+}
+
+#ananasdiv {
+width: 270px;
+height: 295px;
+background-color: rgb(192, 178, 66);
+position: absolute;
+top: 325px;
+left: 248px;
+opacity: 0%;
+transition: 0.7s;
+
+}
+
+#ananasdiv:hover {
+width: 270px;
+height: 295px;
+background-color: rgb(192, 178, 66);
+position: absolute;
+top: 325px;
+left: 238px;
+opacity: 100%;
+}
+
+
+
+
+
+
+
+
+#blåbær {
+position: absolute;
+top: 330px;
+left: 520px;
+}
+
+#blåbærdiv {
+  width: 270px;
+  height: 295px;
+  background-color: rgb(163, 55, 196);
+  position: absolute;
+  top: 325px;
+  left: 750px;
+  opacity: 0%;
+  transition: 0.7s;
+  
+}
+
+#blåbærdiv:hover {
+  width: 270px;
+  height: 295px;
+  background-color: rgb(163, 55, 196);
+  position: absolute;
+  top: 325px;
+  left: 740px;
+  opacity: 100%;
+  
+}
+
+
+
+#jordbær {
+position: absolute;
+top: 330px;
+left: 1023px;
+}
+
+#jordbærdiv {
+  width: 270px;
+  height: 295px;
+  background-color: rgb(204, 63, 30);
+  position: absolute;
+  top: 325px;
+  left: 1250px;
+  opacity: 0%;
+  transition: 0.7s;
+}
+
+#jordbærdiv:hover {
+  width: 270px;
+  height: 295px;
+  background-color: rgb(204, 63, 30);
+  position: absolute;
+  top: 325px;
+  left: 1240px;
+  opacity: 100%;
+  }
+
+
+
+
+
+
+#bringebær {
+position: absolute;
+top: 820px;
+left: 20px;
+}
+
+#bringebærdiv {
+width: 270px;
+height: 295px;
+background-color: rgb(192, 120, 130);
+position: absolute;
+top: 815px;
+left: 248px;
+opacity: 0%;
+transition: 0.7s;
+}
+
+#bringebærdiv:hover {
+opacity: 100%;
+left: 238px;
+}
+
+
+
+
+#grønn {
+position: absolute;
+top: 820px;
+left: 520px;
+}
+
+#grønndiv {
+width: 270px;
+height: 295px;
+background-color: rgb(126, 172, 43);
+position: absolute;
+top: 815px;
+left: 750px;
+opacity: 0%;
+transition: 0.7s;
+}
+
+#grønndiv:hover {
+left: 740px;
+opacity: 100%;
+}
+
+
+#gul {
+position: absolute;
+top: 820px;
+left: 1023px;}
+
+#guldiv {
+width: 270px;
+height: 295px;
+background-color: rgb(205, 161, 0);
+position: absolute;
+top: 815px;
+left: 1250px;
+opacity: 0%;
+transition: 0.7s;
+}
+
+#guldiv:hover {
+opacity: 100%;
+left: 1240px;
+}
+
+
+#tittel {
+width: 644px;
+position: absolute;
+top: 180px;
+left: 440px;
+}
+
+.tilbakeknapp {
+font-family: Impact;
+font-size: 25px;
+position: absolute;
+top: 215px;
+}
+
+
+
+
+#blåbærimg {
+position: absolute;
+left: 90px;
+top: 490px;
+scale: 1.2;
+}
+
+#kjøpnå {
+position: absolute;
+width: 276px;
+top: 395px;
+left: 490px;
+}
+
+#pris {
+position: absolute;
+font-size: 30px;
+width: 276px;
+top: 445px;
+left: 570px;
+}
+
+#blåbærinfo {
+position: absolute;
+top: 530px;
+left: 460px;
+width: 660px;
+height:445px ;
+background-color: rgb(163, 55, 196) ;
+border-radius: 38px;
+}
+
+#ingredienser {
+font-size: 23px;
+position: absolute;
+text-align: left;
+left: 25px;
+}
+
+#næringsstoffer {
+font-size: 23px;
+position: absolute;
+text-align: left;
+left: 400px;
+}
+
+#blåbærtxt {
+font-size: 25px;
+position: absolute;
+
+top: 120px;      
+}
+
+
+
+
+#næringimg1 {
+position: absolute;
+width: 770px;
+top: 200px;
+}
+
+#næringimg2 {
+position: absolute;
+width: 770px;
+top: 200px; 
+left: 760px;
+}
+
+#næringimg3 {
+  position: absolute;
+  width: 755px;
+  top: 200px; 
+  left: 760px;
+  height: 507px;
+  }
+
+#næringboks {
+background-color: black;
+opacity: 61%;
+position: absolute;
+top: 250px;
+width: 800px;
+height: 400px;
+left: 350px;
+}
+
+#næringtxt {
+position: absolute;
+font-size: 45px;
+color: white;
+}
+
+
+
+#omosstxt {
+position: absolute;
+font-size: 45px;
+color: white;
+text-align: center;
+top: 65px;
+}
+
+#bærekraft {
+position: absolute;
+font-size: 100px;
+top: 650px;
+left: 560px;
+text-align: center;
+}
+
+#bærekraftimg {
+position: absolute;
+top: 910px;
+width: 1500px;
+}
+
+#bærekraftboks {
+background-color: black;
+opacity: 61%;
+position: absolute;
+top: 1050px;
+width: 1000px;
+height: 400px;
+left: 300px;
+}
